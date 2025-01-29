@@ -3,10 +3,12 @@ package com.example.adt_t5_api_1b.services;
 import com.example.adt_t5_api_1b.model.Author;
 import com.example.adt_t5_api_1b.repositories.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class AuthorServiceImpl implements AuthorService {
 
 

@@ -1,9 +1,11 @@
 package com.example.adt_t5_api_1b.services;
 
 import com.example.adt_t5_api_1b.model.Author;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
 
 public interface AuthorService {
 
