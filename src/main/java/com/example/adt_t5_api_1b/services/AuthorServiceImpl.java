@@ -26,8 +26,8 @@ public class AuthorServiceImpl implements AuthorService {
     }
 
     @Override
-    public List<Author> findAllByYear(Integer year) {
-        return List.of();
+    public List<Author> findAllByBirthYear(Integer year) {
+        return repository.findAllByBirthYear(year);
     }
 
     @Override

@@ -9,20 +9,20 @@ import java.util.Optional;
 
 public interface AuthorService {
 
-    // READ
+    // READ (GET)
     List<Author> findAll();
-    List<Author> findAllByYear(Integer year);
+    List<Author> findAllByBirthYear(Integer year);
 
     Optional<Author> findById(Long id);
     Optional<Author> findByName(String name);
 
-    // CREATE
+    // CREATE (POST)
     Author save (Author author);
 
-    // DELETE
+    // DELETE (DELETE)
     void deleteById(Long id);
     void deleteAll();
 
-    // UPDATE
+    // UPDATE (PUT)
 
 }
