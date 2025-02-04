@@ -73,7 +73,7 @@ public class AuthorController {
     }
 
     // DELETE lolcalhost/api/authors/1
-    @DeleteMapping("authors/{id}")
+    @DeleteMapping("api/authors/{id}")
     public ResponseEntity<Author> deleteById(@PathVariable Long id){
         // Borrar autor
         this.service.deleteById(id);
